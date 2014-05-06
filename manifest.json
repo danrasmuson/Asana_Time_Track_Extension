@@ -1,0 +1,21 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html",
+      "default_title": "Asana Task Time"
+   },
+   "description": "Fully Automated Time Tracking on Asana",
+   // "icons": {
+   //    "128": "images/icon.png"
+   // },
+   // "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDTbCDrrlic5JtM9k2+DnKE8W2GcuDql0wtU3cIH+/wwA+iXJZGWYblA0T3vp0HbKrfg5uGHdDvJGMKgKnZ+xtto/4ELMkB865YnBRmldpfIlEdExPc+HkTJoGWccN6q8ry84m4dhQlO471cvcTB2s4IqNAg6d2Za0A+qcNkLHS+QIDAQAB",
+   // "update_url": "https://clients2.google.com/service/update2/crx",
+   // "options_page": "options.html",
+   "manifest_version": 2,
+   "name": "Time Tracker",
+   "permissions": [ "tabs" ],
+   "version": "1.0"
+}
